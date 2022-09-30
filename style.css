@@ -24,6 +24,11 @@ p {
   gap: 20px;
 }
 
+.list-ul li:hover {
+  opacity: 0.7;
+  color: #fff !important;
+}
+
 .menu-mobile {
   display: none;
 }
