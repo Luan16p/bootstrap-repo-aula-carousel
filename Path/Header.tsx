@@ -3,8 +3,8 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
+
+import Dropdown from 'react-bootstrap/Dropdown';
 
 export default function Header(props) {
   const [show, setShow] = useState(false);
@@ -39,39 +39,36 @@ export default function Header(props) {
             </li>
           </ul>
           <div className="menu-mobile">
-            <Button
-              variant="dark"
-              className="border border-1"
-              onClick={handleShow}
-            >
-              Menu
-            </Button>
+            <Dropdown>
+              <Dropdown.Toggle
+                variant="dark"
+                className="border border-1"
+                id="dropdown-basic"
+              >
+                Menu
+              </Dropdown.Toggle>
 
-            <Offcanvas show={show} onHide={handleClose}>
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Menu</Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <li>
+              <Dropdown.Menu className="bg-dark">
+                <Dropdown.Item>
                   <Link to="/">Exemplo 1</Link>
-                </li>
-                <li>
+                </Dropdown.Item>
+                <Dropdown.Item>
                   <Link to="/carousel2">Exemplo 2</Link>
-                </li>
-                <li>
+                </Dropdown.Item>
+                <Dropdown.Item>
                   <Link to="/carousel3">Exemplo 3</Link>
-                </li>
-                <li>
+                </Dropdown.Item>
+                <Dropdown.Item>
                   <Link to="/carousel4">Exemplo 4</Link>
-                </li>
-                <li>
+                </Dropdown.Item>
+                <Dropdown.Item>
                   <Link to="/carousel5">Exemplo 5</Link>
-                </li>
-                <li>
+                </Dropdown.Item>
+                <Dropdown.Item>
                   <Link to="/carousel6">Exemplo 6</Link>
-                </li>
-              </Offcanvas.Body>
-            </Offcanvas>
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
           </div>
         </nav>
       </div>
