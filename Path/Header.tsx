@@ -13,7 +13,7 @@ export default function Header(props) {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <div className="header">
+      <div className="header bg-dark">
         <nav className="nav">
           <a href="/" className="logo">
             Carousel

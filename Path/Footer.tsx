@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from 'cdbreact';
 
-export default function Footer() {
+function Footer() {
   return (
     <CDBFooter className="footer bg-dark shadow rouded p-5 md-7">
       <h2>Footer</h2>
@@ -29,3 +29,4 @@ export default function Footer() {
     </CDBFooter>
   );
 }
+export default Footer;
