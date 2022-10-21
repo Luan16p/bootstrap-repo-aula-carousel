@@ -84,3 +84,46 @@ p {
 .footer h2 {
   text-align: center;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+.i__1 {
+  /* fit-content-styletype */
+
+  width: 100vw;
+  height: 100%;
+  max-height: max-content;
+
+  /* display */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* elements */
+
+  padding: 20px;
+}
+
+.i__2 {
+  /* fit-content-styletype */
+
+  width: 100vw;
+  height: 100%;
+  max-height: max-content;
+
+  /* display */
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  /* elements */
+  gap: 20px;
+  padding: 20px;
+}
