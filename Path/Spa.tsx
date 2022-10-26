@@ -39,6 +39,7 @@ import Card16 from '../Components/Cards/Card16';
 import Card17 from '../Components/Cards/Card17';
 import Card18 from '../Components/Cards/Card18';
 import Card19 from '../Components/Cards/Card19';
+import Integrantes from '../Components/Integrantes';
 
 export default function Spa() {
   return (
@@ -50,6 +51,7 @@ export default function Spa() {
         <Route path="/carousel4" element={<Carousel4 />} />
         <Route path="/carousel5" element={<Carousel5 />} />
         <Route path="/carousel6" element={<Carousel6 />} />
+        <Route path="/integrantes" element={<Integrantes />} />
       </Routes>
 
       <main className="i_____components">
