@@ -25,6 +25,7 @@ export default function Integrantes(props: any) {
               <img
                 src="https://github.com/Luan16p/Frameworks-img-database/blob/main/user.png?raw=true"
                 alt=""
+                style={{ color: '#fff' }}
               />
 
               <div className="txt-user">

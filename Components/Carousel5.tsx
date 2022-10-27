@@ -2,7 +2,8 @@ import * as React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 function IndividualIntervalsExample() {
-  const url = 'https://wallpaperaccess.com/full/858.jpg';
+  const url =
+    'https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1520&q=80';
   return (
     <Carousel>
       <Carousel.Item interval={1000}>

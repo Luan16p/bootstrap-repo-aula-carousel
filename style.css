@@ -1,12 +1,8 @@
-h1,
-p {
-  font-family: Lato;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .nav {
@@ -192,4 +188,10 @@ body {
 .user1:hover,
 .user2:hover {
   box-shadow: 0 0 20px rgb(49, 49, 49);
+}
+
+@media screen and (max-width: 811px) {
+  .content-makers img {
+    display: none;
+  }
 }
