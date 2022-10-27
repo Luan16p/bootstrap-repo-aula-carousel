@@ -8,7 +8,7 @@ export default function ControlledCarousel() {
   const url =
     'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1120&q=80';
 
-  const handleSelect = (selectedIndex, e) => {
+  const handleSelect = (selectedIndex: any, e: any) => {
     setIndex(selectedIndex);
   };
 

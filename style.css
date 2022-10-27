@@ -18,6 +18,10 @@
   color: #fff;
 }
 
+.header {
+  background: rgb(28, 29, 31);
+}
+
 .list-ul {
   display: flex;
   margin: 0;

@@ -6,14 +6,14 @@ import { useState } from 'react';
 
 import Dropdown from 'react-bootstrap/Dropdown';
 
-export default function Header(props) {
+export default function Header(props: any) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
     <div>
-      <div className="header bg-dark">
+      <div className="header">
         <nav className="nav">
           <a href="/" className="logo">
             Carousel
